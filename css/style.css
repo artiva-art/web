@@ -229,6 +229,9 @@ article{
     .publicitat .apptitol h1{
         font-size: 40px;
         top: 40px;
+
+        font-weight: 500;
+        font-style: normal;
     }
     
 
@@ -321,7 +324,7 @@ article{
 
 .publicitat h1{
     font-size: 100px;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
     top: 100px;
     transform: translate(-50%,0%);
