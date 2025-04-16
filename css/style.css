@@ -278,9 +278,7 @@ article{
         width: 380px;
     }
 
-    
    
-    
 
 
     .p4 .contacte p{
@@ -344,12 +342,38 @@ article{
 
 
 
+/* ------------ Video Testeig ------------------------------------------- */
+
+#testeig{
+    position: relative;
+    min-height: 100vh;
+    min-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#testeig video {
+    position: absolute;
+    object-fit: cover;
+    display: inline-block;
+    
+    
+}
+
+
+
+
+
+
 
 /* ------------ Pie ------------------------------------------------------------- */
 
 .contacte {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+    margin-top: 50px;
 
 }
 
