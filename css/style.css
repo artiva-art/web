@@ -342,28 +342,61 @@ article{
 
 
 
+/* ------------ imatges Testeig ------------------------------------------- */
+
+
+.funcionament .reptes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap: 10px;
+    padding: 20px;
+    right: 10px;
+    float: left;
+}
+
+.funcionament .reptes img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.funcionament .reptes img:hover {
+    transform: scale(1.05);
+    z-index: 100;
+}
+
 /* ------------ Video Testeig ------------------------------------------- */
+
+.funcionament{
+    background-color: ;
+    overflow: hidden;
+    
+}
 
 #testeig{
     position: relative;
-    min-height: 100vh;
-    min-width: 80vw;
+    min-height: 90vh;
+    width: 50vw;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    background-color: ;
+    float: left;
 }
 
 #testeig video {
-    position: absolute;
-    object-fit: cover;
-    display: inline-block;
-    
-    
+    height: 760px;
+    width: 400px;
 }
 
 
-
+.funcionament p{
+    float: left;
+    font-size: 15px;
+    margin: 20px;
+}
 
 
 
