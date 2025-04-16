@@ -394,8 +394,15 @@ article{
 
 .funcionament p{
     float: left;
-    font-size: 15px;
-    margin: 20px;
+    background-color: white;
+      border-radius: 5px;
+      padding: 20px;
+      width: calc(100% - 80px);
+      margin: 20px;
+      color: #29235c;
+      font-size: 14px;
+      line-height: 1.6;
+
 }
 
 
