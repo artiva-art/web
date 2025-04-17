@@ -386,7 +386,7 @@ article{
 
 #testeig{
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
     width: 50vw;
     justify-content: center;
     align-items: center;
@@ -397,7 +397,7 @@ article{
 }
 
 #testeig video {
-    height: 760px;
+    height: 750px;
     width: 400px;
 }
 
