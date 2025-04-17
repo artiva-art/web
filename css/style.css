@@ -282,6 +282,12 @@ article{
     #testeig{
         margin-left: 0 !important;
         left: -5px;
+
+        
+        background-color: red;
+        min-height: 100vh !important;
+            
+        
     }
     
     .funcionament .reptes {
@@ -361,7 +367,6 @@ article{
     right: 10px;
     float: left;
     margin-left: 5%;
-    margin-top: 50px;
 }
 
 .funcionament .reptes img{
