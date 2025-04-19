@@ -418,7 +418,29 @@ article{
 
 }
 
+/* ------------ PDF ------------------------------------------------------------- */
 
+a {
+    color: #F03C82;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.botopdf{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #F03C82;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.botopdf:hover{
+    background-color: #d03572;
+}
 
 
 /* ------------ Pie ------------------------------------------------------------- */
