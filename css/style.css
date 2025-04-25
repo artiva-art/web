@@ -291,6 +291,23 @@ article{
         margin-left: 0% !important;
     }
 
+    .titolvideo h1{
+        font-size: 40px !important;
+    }
+
+    #promovideo{
+        margin-left: 0 !important;
+        left: 15px;
+        min-height: 100vh !important;
+    }
+
+    #promovideo video {
+        height: 700px !important;
+        width: 400px !important;
+    }
+
+
+
 
     .p4 .contacte p{
         font-size: 11px;
@@ -441,6 +458,43 @@ a {
 .botopdf:hover{
     background-color: #d03572;
 }
+
+/* ------------ video ------------------------------------------------------------- */
+
+.dosvideos{
+    background-color: #44B599;
+    height: 1000px;
+}
+
+.titolvideo h1{
+    font-size: 100px;
+    font-weight: 500;
+    font-style: normal;
+    top: 100px;
+    transform: translate(-50%,0%);
+    color: #282864;
+    height: 150px;
+    margin-bottom: 100px;
+}
+
+#promovideo{
+    position: relative;
+    min-height: 90vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: ;
+    float: left;
+    margin-left: 40%;
+    right: 200px;
+}
+
+#promovideo video {
+    height: 700px;
+    width: 900px;
+}
+
 
 
 /* ------------ Pie ------------------------------------------------------------- */
