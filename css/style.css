@@ -302,11 +302,27 @@ article{
     }
 
     #promovideo video {
-        height: 700px !important;
+        height: 300px !important;
         width: 400px !important;
     }
 
+    #presenvideo{
+        position: absolute;
+        margin-left: 0 !important;
+        right: 200px !important ;
+        min-height: 100vh !important;
+        top: 380px !important;
+    }
 
+    #presenvideo video {
+        height: 300px !important;
+        width: 400px !important;
+    }
+
+    .dosvideos{
+        background-color: #44B599;
+        height: 1000px !important;
+    }
 
 
     .p4 .contacte p{
@@ -463,7 +479,7 @@ a {
 
 .dosvideos{
     background-color: #44B599;
-    height: 1000px;
+    height: 2000px;
 }
 
 .titolvideo h1{
@@ -491,6 +507,24 @@ a {
 }
 
 #promovideo video {
+    height: 700px;
+    width: 900px;
+}
+
+#presenvideo{
+    position: relative;
+    min-height: 90vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: ;
+    float: left;
+    margin-left: 40%;
+    right: 200px;
+}
+
+#presenvideo video {
     height: 700px;
     width: 900px;
 }
