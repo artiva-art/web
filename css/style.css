@@ -304,6 +304,7 @@ article{
     #promovideo video {
         height: 300px !important;
         width: 360px !important;
+        object-fit: contain !important;
     }
 
     #presenvideo{
@@ -318,6 +319,7 @@ article{
         height: 300px !important;
         left: 20px;
         width: 360px !important;
+        object-fit: contain !important;
     }
 
     .dosvideos{
