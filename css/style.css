@@ -303,7 +303,7 @@ article{
 
     #promovideo video {
         height: 300px !important;
-        width: 400px !important;
+        width: 360px !important;
     }
 
     #presenvideo{
@@ -316,7 +316,8 @@ article{
 
     #presenvideo video {
         height: 300px !important;
-        width: 400px !important;
+        left: 20px;
+        width: 360px !important;
     }
 
     .dosvideos{
