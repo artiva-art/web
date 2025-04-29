@@ -129,7 +129,7 @@ video {
 
 .p4{
     background: black;
-    height: 250px;
+    height: 250px ;
 }
 
 
@@ -297,7 +297,7 @@ article{
 
     #promovideo{
         margin-left: 0 !important;
-        left: 15px;
+        left: 33px;
         min-height: 100vh !important;
     }
 
@@ -335,6 +335,35 @@ article{
     .p4 .contacte img{
         width: 40%;
         top: 100px;
+    }
+
+    .contacte {
+        text-align: center;
+        height: 100px !important;
+    }
+
+    
+    .contacte img {
+        width: 100px !important;
+        top: 100px !important;
+        left: 40%;
+    }
+    
+    .contacte:hover img {
+        animation: none;
+    }
+
+    .contacte .xarxes p {
+        opacity: 0;
+    }
+    
+    #p4 .contact{
+        top: 100px !important;
+        left: -10% !important;
+    }
+
+    #p4 .contact p{
+        font-size: 13px !important;
     }
 
 }
@@ -534,14 +563,14 @@ a {
 
 /* ------------ Pie ------------------------------------------------------------- */
 
+
+
 .contacte {
     text-align: center;
-    padding: 50px;
-    margin-top: 50px;
-
 }
 
-.contacte p {
+.contacte .xarxes p {
+    position: absolute;
     color: #282864;
     font-size: 15px;
     text-align: left;
@@ -549,11 +578,26 @@ a {
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
+    right: 20%;
+    bottom: 195px;
+}
+
+.contacte .contact p {
+    color: #282864;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-left: 20%;
+    bottom: 50px;
 }
 
 .contacte img {
     width: 200px;
-    margin-bottom: 10px;
+    bottom: 100px;
+    position: absolute;
 }
 
 .contacte:hover img {
