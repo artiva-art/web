@@ -345,8 +345,8 @@ article{
     
     .contacte img {
         width: 100px !important;
-        top: 100px !important;
-        left: 40%;
+        bottom: 0px !important;
+        right: 130px;
     }
     
     .contacte:hover img {
@@ -358,13 +358,16 @@ article{
     }
     
     #p4 .contact{
-        top: 100px !important;
-        left: -10% !important;
+        top: 200px !important;
+        left: 30% !important;
     }
 
     #p4 .contact p{
-        font-size: 13px !important;
+        font-size: 10px !important;
+        width: 200px;
+        right: 40px;
     }
+
 
 }
 
